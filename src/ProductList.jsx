@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addItem } from './CreatSlice';
+import { addItem } from './CartSlice';
 import './ProductList.css';
 
 function ProductList({ onViewCartClick }) {
